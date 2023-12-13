@@ -1,7 +1,5 @@
 # STA308-Final
-Rstudio and Python code for sta308 final project
-
-Flu and Pneumonia mortality rates from 2018 and 2021
+Rstudio and Python code for sta308 final project for Flu and Pneumonia mortality rates from 2018 and 2021.
 
 # Table of R and Python Values Found
 | Region    | R.mean diff | R.std     | R.cv      | Py.mean diff |            Py.std |               Py.cv |  
