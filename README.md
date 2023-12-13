@@ -2,7 +2,7 @@
 Rstudio and Python code for sta308 final project
 Flu and Pneumonia mortality rates from 2018 and 2021
 
-#Table of R and Python Values Found
+# Table of R and Python Values Found
 | Region    | R.mean diff | R.std     | R.cv      | Py.mean diff |            Py.std |               Py.cv |  
 |-----------|-------------|-----------|-----------|--------------|-------------------|---------------------|
 | Midwest   |    35.72255 |  8.918304 | 0.2496548 |    35.722550 |         0.2871966 | 0.24965475137565343 | 
@@ -10,7 +10,8 @@ Flu and Pneumonia mortality rates from 2018 and 2021
 | South     |    24.86342 |  7.140688 | 0.2871966 |    24.863418 | 12.43294539873221 | 0.2871965704985935  | 
 | West      |    34.87706 | 12.928896 | 0.3706991 |    34.877063 | 7.140688471824783 | 0.3706991103474302  | 
 
-##Compare and Contrast Percent Difference and Variation between Regions
+## Compare and Contrast Percent Difference and Variation between Regions
+
 The Coefficient of Variation(CV) is the ratio of the standard deviation/mean. It determines the variability across
 the mean meaning a lower CV is better data as the data is less dispersed.
 
@@ -21,14 +22,16 @@ regions as it has the smallest one at ~25 while its cv is in the middle of the o
 most similar average and cv to all the other regions. Slightly higher than the other averages and right in the middle
 of the West and South cv at ~.32.
 
-#Table of Functionality Between R and Python
+# Table of Functionality Between R and Python
+
 | Functionality                               | In R               | In Python                   |
 |---------------------------------------------|--------------------|-----------------------------|
 | Calculating New Columns in Dataframe        | mutate()           | assign()                    |
 | Sums up all grouped data                    | summarize()        | agg()                       |
 | Merges by selected same column names        | by =               | on =                        |
 
-#My Favorite Topic
+# My Favorite Topic
+
 My favorite topic was using Python to create interlooping functions. I enjoyed the methodology of how to get from
 logic to logic and how within the loops you would need other conditions with a conditioned loop. Specifically
 with Python because it was easier for me to think using its language.
